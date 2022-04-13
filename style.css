@@ -1,0 +1,84 @@
+body {
+	color: #333;
+	margin: 0;
+	padding: 0;
+	font: 18pt "Tahoma";
+}
+
+#pageSubheading {
+	text-align: center;
+	font-size: 16pt;
+	color: #939393;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+#pageHeading {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 24pt;
+}
+
+
+#instructions {
+	font-size: 12pt;
+	text-align: center;
+	margin-bottom: 40px !important;
+}
+
+#instructions, #formControls {
+	width: 80%;
+	margin: auto;
+}
+
+#formControls {
+    display: flex;
+    justify-content: "space-between";
+}
+
+input, select {
+	flex-grow: 1;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#labels {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.label {
+  width: 95.4mm; /* 63.6 */
+  height: 69.9mm; /* 46.6 */
+  border-radius: 5mm;
+  display: inline-block;
+  text-align: center;
+  margin-right: 7.5mm; /* 2.5 */
+  margin-bottom: 6mm;
+  color: black;
+}
+
+.partNumber {
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.partType {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.additionalInfo {
+	font-size: 12pt;
+}
+
+.componentPackage {
+	max-height: 30mm;
+	width: auto;
+}
+
+.componentSymbol {
+	max-height: 30mm;
+	width: auto;
+}
